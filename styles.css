@@ -1,0 +1,93 @@
+/*
+ * Basic layout
+ */
+
+body {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    font-family: monospace;
+    font-size: 130%;
+}
+
+main {
+    margin: 3% 0 0;
+}
+
+footer{
+    text-align: center;
+    margin: 5% 0;
+}
+
+
+/*
+ * Layout for inner blocks
+ */
+
+.flow_horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.flow_vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.avatar_container {
+    width: 20%;
+    margin: 0 5% 0 0;
+    padding: 1%;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.content_centered{
+    justify-content: space-around;
+}
+
+.vertical_column {
+    min-width: 400px;
+    padding: 0 2%;
+}
+
+.vertical_item {
+    margin: 10% 0;
+    background-color: none;
+}
+
+
+/*
+ * Formatting
+ */
+
+.no_markers {
+    list-style-type: none;
+}
+
+.link_no_style, .link_no_style:link, .link_no_style:visited, .link_no_style:hover, .link_no_style:focus, .link_no_style:active {
+    color: black;
+    text-decoration: none;
+}
+
+.gray_text {
+    color: grey;
+}
+
+.no_decoration {
+    font-family: inherit;
+    text_decoration: none;
+}
+
+.small_text {
+    font-size: 80%;
+}
+
+.align_right {
+    text-align: end;
+}
